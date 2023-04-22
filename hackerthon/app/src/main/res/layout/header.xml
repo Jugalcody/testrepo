@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#4984EA"
+    android:orientation="vertical"
+    android:layout_height="250dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/waste_management_system"
+    android:textSize="21sp"
+    android:padding="10dp"
+    android:textColor="@color/white"
+    android:background="#3e84bc"
+    />
+
+    <ImageView
+        android:layout_margin="2dp"
+        android:layout_width="120dp"
+        android:layout_height="124dp"
+        android:src="@drawable/people_foreground" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:id="@+id/user1"
+        android:text="user"
+        android:padding="3dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/but11"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/govtl1"
+    android:background="#EFEEEE"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/govt2"/>
+    <TextView
+        android:id="@+id/gmh1"
+        android:layout_width="match_parent"
+        android:background="#EFEEEE"
+
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="9dp"
+        android:text="Indian Governmennt/ Bharat Sarkar"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gmh3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/govtl1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/but7"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/problem_viewer"
+        android:textColor="#E4E1E1"
+        android:textSize="20sp" />
+
+
+
+
+
+
+
+</RelativeLayout>

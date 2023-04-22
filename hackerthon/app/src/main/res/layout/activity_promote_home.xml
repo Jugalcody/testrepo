@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/but2"
+    android:layout_height="match_parent"
+    tools:context=".promote_home">
+
+    <LinearLayout
+        android:id="@+id/pst1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="5dp"
+
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="@color/teal_700"
+            android:gravity="center"
+            android:text="@string/promotes"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:text="@string/repaired_rebuild_or_sell_and_save_environment"
+            android:textSize="19sp" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/psb1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pst1"
+        android:layout_marginTop="80dp"
+        android:text="@string/sell"
+android:background="@drawable/but4"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/psb1"
+android:background="@drawable/but4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+
+        android:gravity="center"
+        android:text="@string/buy"
+
+
+        android:id="@+id/psb2"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</RelativeLayout>

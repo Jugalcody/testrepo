@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/but11"
+    tools:context=".govern_login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/govtll1"
+        android:background="#EFEEEE"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/govt2"/>
+        <TextView
+            android:id="@+id/gmh1"
+            android:layout_width="match_parent"
+            android:background="#EFEEEE"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="9dp"
+            android:text="Indian Governmennt/ Bharat Sarkar"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_below="@id/govtll1"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/but3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+
+        android:layout_marginBottom="7dp"
+        android:padding="14dp"
+        android:text="Swach Bharat Abhiyaan"
+
+        android:textColor="@color/black"
+        android:textSize="28sp" />
+    <EditText
+        android:id="@+id/gle1"
+android:background="@drawable/but12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+
+        android:hint="@string/email"
+        android:minHeight="15dp"
+        android:layout_above="@id/gle2"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#E8E6E6"
+        android:textSize="17sp" />
+
+
+    <EditText
+        android:id="@+id/gle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:inputType="textPassword"
+        android:layout_marginStart="20dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/but12"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/password"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#E8E6E6"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/gle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gle2"
+        android:layout_marginStart="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="0dp"
+        android:hint="@string/code"
+        android:background="@drawable/but12"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#E8E6E6"
+        android:textSize="17sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/glb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gle3"
+        android:background="@drawable/but3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="@string/sign_in" />
+
+    <TextView
+        android:id="@+id/glt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+android:background="@drawable/but12"
+        android:layout_marginBottom="7dp"
+        android:padding="14dp"
+        android:text="@string/don_t_have_account"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>

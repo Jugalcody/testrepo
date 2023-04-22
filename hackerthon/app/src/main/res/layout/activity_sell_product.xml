@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/but2"
+    android:layout_height="match_parent"
+    tools:context=".sell_product">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sell_waste_materials"
+        android:textSize="27sp"
+        android:textColor="@color/black"
+        android:padding="30dp"
+        android:layout_centerHorizontal="true"
+
+        />
+    <EditText
+        android:id="@+id/pselle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:hint="@string/item_name"
+        android:textColor="@color/black"
+        android:textColorHint="#757575"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/pselle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pselle1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:hint="@string/where_to_utitlize"
+        android:textColor="@color/black"
+        android:textColorHint="#757575"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/pselle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pselle2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:hint="@string/price"
+        android:textColor="@color/black"
+        android:textColorHint="#757575"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/pselle4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pselle3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+android:background="@drawable/but4"
+        android:layout_marginEnd="20dp"
+
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:text="@string/share_item"
+        android:textSize="18sp" />
+
+</RelativeLayout>

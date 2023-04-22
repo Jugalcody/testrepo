@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hackerthon"
+        tools:targetApi="31">
+        <activity
+            android:name=".govt_issues"
+            android:exported="false" />
+        <activity
+            android:name=".contact"
+            android:exported="false" />
+        <activity
+            android:name=".team_creation"
+            android:exported="false" />
+        <activity
+            android:name=".buy_product"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".header2"
+            android:exported="false" />
+        <activity
+            android:name=".home_gover"
+            android:exported="false" />
+        <activity
+            android:name=".abc"
+            android:exported="false" />
+        <activity
+            android:name=".gmt"
+            android:exported="false" />
+        <activity
+            android:name=".signin_citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Garbage_mangement"
+            android:exported="false" />
+        <activity
+            android:name=".sell_product"
+            android:exported="false" />
+        <activity
+            android:name=".Problem_S"
+            android:exported="false" />
+        <activity
+            android:name=".promote_home"
+            android:exported="false" />
+        <activity
+            android:name=".Scheme"
+            android:exported="false" />
+        <activity
+            android:name=".home_citizen"
+            android:exported="false" />
+        <activity
+            android:name=".signin_govern"
+            android:exported="false" />
+        <activity
+            android:name=".citizen_login"
+            android:exported="false" />
+        <activity
+            android:name=".govern_login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

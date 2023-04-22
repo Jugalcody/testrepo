@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".team_creation">
+    <TextView
+        android:background="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create team"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/cmt1"/>
+    <EditText
+        android:textColor="@color/black"
+        android:layout_below="@+id/cmt1"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="organisation name/team name"
+        android:textSize="20sp"
+        android:id="@+id/cmt2"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <EditText
+        android:textColor="@color/black"
+        android:layout_below="@+id/cmt2"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Motives"
+        android:textSize="20sp"
+        android:id="@+id/cmt3"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <EditText
+        android:textColor="@color/black"
+        android:layout_below="@+id/cmt3"
+        android:layout_marginTop="25dp"
+        android:id="@+id/cmt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="achievement"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <EditText
+        android:textColor="@color/black"
+        android:layout_below="@+id/cmt4"
+        android:id="@+id/cmt5"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="specialized"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <Button
+        android:layout_below="@+id/cmt5"
+        android:layout_marginTop="25dp"
+        android:id="@+id/cmb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="summit"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+
+
+
+</RelativeLayout>

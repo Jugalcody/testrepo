@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/but11"
+    android:layout_height="match_parent"
+    tools:context=".Problem_S">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/chpt1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/but7"
+            android:padding="10dp"
+            android:text="@string/waste_management_issues"
+            android:textColor="@color/black"
+            android:textSize="27sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="4dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+  android:src="@drawable/garbage2"
+
+        android:layout_below="@id/chpt1"
+
+        android:id="@+id/chpt2"
+
+        />
+    <EditText
+        android:id="@+id/chpe1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chpt2"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="6dp"
+
+        android:layout_marginBottom="6dp"
+        android:gravity="top"
+        android:hint="@string/write_your_statement_here"
+        android:minHeight="400dp"
+        android:padding="10dp"
+
+        android:background="@drawable/but11"
+        android:textColor="@color/black"
+        android:textColorHint="#757575"
+        android:textSize="17sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chpe1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/but3"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:id="@+id/chpb1"
+        android:text="@string/send"
+        android:textSize="18sp" />
+
+</RelativeLayout>
+</LinearLayout>
+</ScrollView>
+

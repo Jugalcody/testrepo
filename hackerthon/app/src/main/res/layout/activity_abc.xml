@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/but3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/cmt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/but6"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/create_team"
+        android:textSize="22sp" />
+    <EditText
+        android:textColor="@color/black"
+        android:layout_below="@+id/cmt1"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/organisation_name_team_name"
+        android:textSize="20sp"
+        android:id="@+id/cmt2"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:padding="15dp"/>
+    <EditText
+        android:textColor="@color/black"
+        android:layout_below="@+id/cmt2"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/motives"
+        android:textSize="20sp"
+        android:id="@+id/cmt3"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:padding="15dp"/>
+    <EditText
+        android:textColor="@color/black"
+        android:layout_below="@+id/cmt3"
+        android:layout_marginTop="25dp"
+
+        android:id="@+id/cmt4"
+        android:textColorHint="#757575"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/achievement"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:padding="15dp"/>
+
+
+    <EditText
+        android:textColor="@color/black"
+        android:layout_below="@+id/cmt4"
+        android:id="@+id/cmt5"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/specialized"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:padding="15dp"/>
+    <Button
+        android:layout_below="@+id/cmt5"
+        android:layout_marginTop="25dp"
+        android:id="@+id/cmb1"
+        android:layout_width="match_parent"
+        android:background="@drawable/but4"
+        android:layout_height="wrap_content"
+        android:hint="@string/summit"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+
+
+
+</RelativeLayout>

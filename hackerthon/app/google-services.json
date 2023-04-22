@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "299015067421",
+    "firebase_url": "https://hifi-chatting-default-rtdb.firebaseio.com",
+    "project_id": "hifi-chatting",
+    "storage_bucket": "hifi-chatting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299015067421:android:68e1f1b5a62918fb6ef3f4",
+        "android_client_info": {
+          "package_name": "com.example.hackerthon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299015067421-1h7kk7jref65ha51v5452141s0ili9fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNGCaFXqHqPpBQLVHFcBZD6BUjuxO4YUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299015067421-1h7kk7jref65ha51v5452141s0ili9fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299015067421:android:97a4f4316416c3e76ef3f4",
+        "android_client_info": {
+          "package_name": "com.example.hifichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299015067421-1h7kk7jref65ha51v5452141s0ili9fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNGCaFXqHqPpBQLVHFcBZD6BUjuxO4YUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299015067421-1h7kk7jref65ha51v5452141s0ili9fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

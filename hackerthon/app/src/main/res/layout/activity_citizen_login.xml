@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/peo4"
+    tools:context=".citizen_login">
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/but4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+
+        android:layout_marginBottom="7dp"
+        android:padding="14dp"
+        android:text="@string/citizen_account"
+
+        android:textColor="@color/white"
+        android:textSize="28sp" />
+    <EditText
+        android:id="@+id/cle1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+
+        android:hint="@string/email"
+        android:minHeight="15dp"
+        android:layout_above="@id/cle2"
+        android:padding="15dp"
+        android:background="@drawable/but12"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="17sp" />
+
+
+    <EditText
+        android:id="@+id/cle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:inputType="textPassword"
+        android:layout_marginStart="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="0dp"
+        android:hint="@string/password"
+        android:background="@drawable/but12"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="17sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/clb1"
+        android:background="@drawable/but3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_below="@+id/cle2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:text="@string/sign_in" />
+
+    <TextView
+        android:id="@+id/clt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+android:background="@drawable/but12"
+        android:layout_marginBottom="7dp"
+        android:padding="14dp"
+        android:text="@string/don_t_have_account"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

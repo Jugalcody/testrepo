@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/but11"
+    android:layout_height="match_parent"
+
+    tools:context=".signin_govern">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/govtlll1"
+        android:background="#EFEEEE"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/govt2"/>
+        <TextView
+            android:id="@+id/gmh1"
+            android:layout_width="match_parent"
+            android:background="#EFEEEE"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="9dp"
+            android:text="Indian Governmennt/ Bharat Sarkar"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/gse1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/govtlll1"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+android:background="@drawable/but12"
+        android:hint="@string/user_name"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#E8E6E6"
+        android:textSize="17sp" />
+    <EditText
+        android:layout_below="@+id/gse1"
+        android:id="@+id/gse2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/email"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#E8E6E6"
+        android:background="@drawable/but12"
+        android:textSize="17sp" />
+    <EditText
+        android:id="@+id/gse3"
+        android:layout_below="@+id/gse2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/country"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#E8E6E6"
+        android:background="@drawable/but12"
+        android:textSize="17sp" />
+    <EditText
+        android:id="@+id/gse4"
+        android:layout_below="@id/gse3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#E8E6E6"
+        android:background="@drawable/but12"
+        android:textSize="17sp" />
+
+
+    <EditText
+        android:id="@+id/gse5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gse4"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/password_confirmed"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#E8E6E6"
+        android:background="@drawable/but12"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/gse6"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gse5"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="0dp"
+        android:hint="@string/code"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#E8E6E6"
+        android:background="@drawable/but12"
+        android:textSize="17sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gsb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gse6"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/but6"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:text="@string/sign_up" />
+
+
+
+</RelativeLayout>

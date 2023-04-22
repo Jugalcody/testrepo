@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/but2"
+    android:layout_height="match_parent"
+
+    tools:context=".signin_citizen">
+
+    <EditText
+        android:id="@+id/cse1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+
+        android:hint="@string/user_name"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#757575"
+        android:textSize="17sp" />
+    <EditText
+        android:layout_below="@+id/cse1"
+        android:id="@+id/cse2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/email"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#757575"
+        android:textSize="17sp" />
+    <EditText
+        android:id="@+id/cse3"
+        android:layout_below="@+id/cse2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/country"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#757575"
+        android:textSize="17sp" />
+    <EditText
+        android:id="@+id/cse4"
+        android:layout_below="@id/cse3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/password"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#757575"
+        android:textSize="17sp" />
+
+
+    <EditText
+        android:id="@+id/cse5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cse4"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="@string/password_confirmed"
+        android:minHeight="15dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#757575"
+        android:textSize="17sp" />
+
+
+    <Button
+        android:id="@+id/csb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cse5"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:text="@string/sign_up" />
+
+
+
+</RelativeLayout>
